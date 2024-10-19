@@ -4,7 +4,7 @@ const Color = () =>{
     const [color , setColor] = useState('pink')
 
     function Change (){
-        setColor(color == 'brown' ? 'black' : 'voilet')
+        setColor(color == 'pink' ? 'black' : 'blue')
     }
     return(
         <div style={{backgroundColor:color , height:'100vh'}}>
